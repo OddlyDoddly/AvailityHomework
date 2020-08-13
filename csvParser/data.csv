@@ -1,11 +1,18 @@
 userid,name,version,company
-0001,Rhoda Freeman,0,Company1
-0002,Eva Bennett,1,Company1
-0003,David Coleman,2,Company1
-0004,Ronnie Weber,2,Company2
 0005,Violet Lawson,1,Company2
-0006,Jesus Lopez,1,"Company3, inc."
-0007,Chris Fields,2,"Company3, inc."
+0001,Rhoda Freeman,0,Company1
+0001,Rhoda Freeman,2,Company1
+0001,Rhoda Freeman,4,Company1
+0001,Rhoda Freeman,5,Company1
+0002,Eva Bennett,1,Company1
 0008,Cecelia Joseph,2,"Company3, inc."
 0009,Matilda Bell,1,"Company3, inc."
 0010,Bruce Sanders,1,"Company3, inc."
+0008,Cecelia Joseph,2,"Company3, inc."
+0009,Matilda Bell,1,"Company3, inc."
+0010,Bruce Sanders,1,"Company3, inc."
+0003,David Coleman,2,Company1
+0004,Ronnie Weber,2,Company2
+0006,Jesus Lopez,1,"Company3, inc."
+0007,Chris Fields,2,"Company3, inc."
+

@@ -1,4 +1,4 @@
-public class DataEntry {
+public class DataEntry implements Comparable<DataEntry> {
     private String userId;
     private int version;
     private String company;
@@ -34,5 +34,10 @@ public class DataEntry {
 
     public void setCompany(String company) {
         this.company = company;
+    }
+
+    @Override
+    public int compareTo(DataEntry dataEntry) {
+        return this.getName().compareToIgnoreCase(dataEntry.getName());
     }
 }

@@ -4,7 +4,6 @@ public class main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-
         while(true) {
             System.out.println("Please enter a string to be validated...");
             String input = scanner.nextLine();
