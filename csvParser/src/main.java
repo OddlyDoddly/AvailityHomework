@@ -1,7 +1,6 @@
 import com.opencsv.*;
 import com.opencsv.exceptions.CsvValidationException;
 
-import javax.xml.crypto.Data;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -44,10 +43,6 @@ public class main {
 
             entry.setName(lastNameFirst);
         }
-    }
-
-    public static void sortByName(List<DataEntry> entries) {
-
     }
 
     public static HashMap<String, List<DataEntry>> parseEntries(FileReader fileReader) throws IOException, CsvValidationException {
